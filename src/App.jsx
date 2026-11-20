@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import {
   ArrowUpRight, Github, Linkedin, Mail, Download, Menu, X,
   Code2, Database, Globe, Layers, BriefcaseBusiness, GraduationCap,
-  ExternalLink, Sparkles, Terminal, Workflow, Bot, MapPin
+  ExternalLink, Sparkles, Terminal, Workflow, Bot, MapPin,Phone
 } from 'lucide-react';
 
 const nav = ['About', 'Skills', 'Experience', 'Projects', 'Education', 'Contact'];
