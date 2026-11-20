@@ -438,7 +438,62 @@ function App() {
           <div className="cert-column"><SectionTitle eyebrow="06 / CONTINUOUS LEARNING" title="Certifications." /><div className="cert-placeholder"><Sparkles /><div><h3>Generative AI & Prompt Engineering</h3><p>Currently learning. Add certificate name, issuer and completion date after earning it.</p><span className="status-label">IN PROGRESS</span></div></div></div>
         </section>
 
-        <section className="contact-section" id="contact"><div className="section-wrap contact-inner"><div><span className="eyebrow">07 / GET IN TOUCH</span><h2>Have a role or project<br />in mind? <span>Let's connect.</span></h2><p>I'm interested in opportunities where I can build, improve and ship useful software.</p></div><div className="contact-links"><a href="mailto:ankitsharma16031996@gmail.com"><Mail /> ankitsharma16031996@gmail.com <ArrowUpRight /></a><a href="https://github.com/ankit1603" target="_blank" rel="noreferrer"><Github /> github.com/ankit1603 <ArrowUpRight /></a><a href="https://www.linkedin.com/in/ankit-sharma-5b511a188/" target="_blank" rel="noreferrer"><Linkedin /> LinkedIn profile <ArrowUpRight /></a></div></div></section>
+       
+<section className="contact-section" id="contact">
+  <div className="section-wrap contact-inner">
+    <div>
+      <span className="eyebrow">07 / GET IN TOUCH</span>
+
+      <h2>
+        Have a role or project
+        <br />
+        in mind? <span>Let's connect.</span>
+      </h2>
+
+      <p>
+        I'm interested in opportunities where I can build,
+        improve and ship useful software.
+      </p>
+    </div>
+
+    <div className="contact-links">
+
+      <a href="mailto:ankitsharma16031996@gmail.com">
+        <Mail />
+        ankitsharma16031996@gmail.com
+        <ArrowUpRight />
+      </a>
+
+      <a href="tel:+919457350029">
+        <Phone />
+        +91 94573 50029
+        <ArrowUpRight />
+      </a>
+
+      <a
+        href="https://github.com/ankit1603"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <Github />
+        github.com/ankit1603
+        <ArrowUpRight />
+      </a>
+
+      <a
+        href="https://www.linkedin.com/in/ankit-sharma-5b511a188/"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <Linkedin />
+        LinkedIn profile
+        <ArrowUpRight />
+      </a>
+
+    </div>
+  </div>
+</section>
+
       </main>
       <footer className="footer section-wrap"><a className="brand" href="#home"><span className="brand-mark">AS</span><span>ANKIT<span className="brand-dot">.</span></span></a><span>Designed & built with care by Ankit Sharma · © {new Date().getFullYear()}</span><a href="#home">Back to top ↑</a></footer>
     </div>
